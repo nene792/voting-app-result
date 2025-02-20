@@ -1,4 +1,4 @@
-FROM node:10-slim
+FROM public.ecr.aws/bitnami/node:10
 
 # add curl for healthcheck
 #RUN apt-get update \
